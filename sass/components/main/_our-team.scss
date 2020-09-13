@@ -1,0 +1,46 @@
+.section.our-team {
+    padding-bottom: 60px;
+    padding-top: 60px;
+    background-color: #f5f4fa;
+}
+
+.team {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    & .iten-team {
+        width: 450px;
+        background: $wightColor;
+        box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+        border-radius: 0px 0px 4px 4px;
+        margin-top: 30px;
+    }
+    // & .iten-team:nth-child(4n) {
+    //     margin-right: 0;
+    // }
+    .team-size {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.1875;
+        text-align: center;
+        letter-spacing: 0.03em;
+        text-transform: none;
+    }
+    .size {
+        margin-top: 0;
+        margin-bottom: 16px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.187;
+        text-align: center;
+        letter-spacing: 0.03em;
+    }
+}
+
+ul>.img-team {
+    display: inline-block;
+}
+
+.img-team {
+    margin-bottom: 30px;
+}

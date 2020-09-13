@@ -1,0 +1,7 @@
+.button-items {
+    display: flex;
+    justify-content: center;
+    & .iten+.iten {
+        margin-left: 8px;
+    }
+}

@@ -1,0 +1,63 @@
+// .page-header {
+//     position: relative;
+// }
+.container {
+    // width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    // padding-left: 15px;
+    // padding-right: 15px;
+    z-index: 1;
+    /*outline: 2px solid #2f303a;*/
+    @media screen and (min-width: 480px) {
+        width: 480px;
+    }
+    @media screen and (min-width: 768px) {
+        width: 768px;
+    }
+    @media screen and (min-width: 1140px) {
+        width: 1140px;
+    }
+}
+
+.nav-contact {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+// .nav-contact {
+//     // display: flex;
+//     // align-items: center;
+//     &::after {
+//         content: '';
+//         // position: absolute;
+//         // width: 100%;
+//         // height: 0px;
+//         // left: 0px;
+//         // top: 80px;
+//         border: 1px solid #ECECEC;
+//     }
+// }
+.logo {
+    display: flex;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    font-family: Raleway, sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.166;
+    letter-spacing: 0.03em;
+    color: $black-color;
+    @media screen and (min-width: 768px) {
+        margin-top: 26px;
+        margin-bottom: 26px;
+    }
+    @media screen and (min-width: 1140px) {
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+}
+
+.first-part-logo {
+    color: $accent;
+}

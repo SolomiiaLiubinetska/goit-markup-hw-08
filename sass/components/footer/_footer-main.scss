@@ -1,0 +1,38 @@
+.footer {
+    background-color: #2f303a;
+}
+
+.foot-div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    // align-items: baseline;
+}
+
+.second-part-logo {
+    color: $wightColor;
+}
+
+.logo.foo {
+    display: flex;
+    justify-content: center;
+    // margin-top: 60px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.section.foot {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+h2 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+h2>a {
+    display: inline-block;
+    margin-bottom: 20px;
+    margin-top: 60px;
+}
